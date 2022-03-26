@@ -15,12 +15,12 @@ ApartmentFinder will allow owners to post apartments available for rent in a cer
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Housing
+- **Mobile:** You could use it on both mobile and desktop
+- **Story:** People looking for apartment leases can use the app to find up to date postings of aparments for rent.
+- **Market:** Students
+- **Habit:** Seasonally, Mainly during beginning or end of semesters
+- **Scope:** Possible to finish within a month
 
 ## Product Spec
 
@@ -28,39 +28,47 @@ ApartmentFinder will allow owners to post apartments available for rent in a cer
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Sign Up
+* Login and Log out
+* Post, View, Comment Apartment Available
+  * Apartment Listing, Currently Available, Available in Future
+  * Original User can delete Listing
+  * Edit Listing
+* Search Apartments by Zip Code
 
 **Optional Nice-to-have Stories**
 
-* [fill in your optional user stories here]
+* Private dm to talk between owners and possible tenants
 * ...
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* [Login Screen]
+   * Sign Up
+   * Login
+* [Main Screen]
+   * Post, View, Comment Apartment Available
+   * Search Apartments by Zip Code
+   * Log Out
+* [Post Screen]
+  * Edit Listing
+  * Delete Listing
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* [Main Screen]
+   * Log Out
+   * Post
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* [Login Screen]
+   * [Main Screen]
+* [Main Screen]
+   * [Post Screen]
+   * [Login Screen]
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
